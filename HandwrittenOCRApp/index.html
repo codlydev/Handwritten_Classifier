@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten to Digital Text Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Handwritten Text Converter</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <button id="convertBtn">Convert Text</button>
+        <div class="output-container">
+            <h2>Recognized Text:</h2>
+            <textarea id="recognizedText" rows="10" cols="50" readonly placeholder="Upload an image and click 'Convert Text'"></textarea>
+            <button id="copyBtn">Copy Text</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
